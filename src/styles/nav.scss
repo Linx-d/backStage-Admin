@@ -1,0 +1,21 @@
+// nav element-ui样式设置
+
+.nav_menu {
+  .el-menu {
+    font-size: 14px;
+    .el-submenu__title:hover {
+      background-color: transparent !important;
+    }
+    .el-menu-item {
+      padding-left: 50px !important;
+      height: 40px !important;
+      line-height: 40px !important;
+    } 
+    .el-menu-item:hover {
+      background-color: #00284d !important;
+    }
+    .el-menu-item.is-active {
+      background-color: #1890ff !important;
+    }
+  }
+}
